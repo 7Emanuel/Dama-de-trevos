@@ -18,7 +18,7 @@ function App() {
     <>
       <div className="card center-text">
         <h1 style={{color: "white", marginBottom: "0.3rem"}}>nada para fazer</h1>
-        <h1 style={{color: "white", marginTop: "0" }}>fiz isso enquanto estava entediado na aula de web</h1>
+        <h1 style={{color: "white", marginTop: "0" }}>fiz isso enquanto estava intediado na aula de web</h1>
 
         <button onClick={toggleModal} className="btn">
           Ver Galeria
