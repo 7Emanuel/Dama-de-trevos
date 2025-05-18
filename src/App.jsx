@@ -28,8 +28,9 @@ function App() {
       {isModalOpen && (
         <div className="modal-overlay">
           <div className="modal-content">
-            <h2 style={{color: "black"}}>Galeria de Imagens</h2>
-
+            <h2 style={{color: "black", marginBottom: "0.3rem"}}>Galeria de Imagens de</h2>
+            <h2 style={{color: "black", marginTop: "0"}}>Maria Eduarda</h2>
+            <h2 style={{color: "black", marginTop: "0"}}>Feliz aniversario atrasado 😅</h2>
             <div className="gallery">
   <div className="gallery-col">
     <img src={primeiraImagem} alt="Imagem 1" className="rotated1" />
